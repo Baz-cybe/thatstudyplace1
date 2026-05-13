@@ -1,0 +1,20 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.game-card {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+    border: 1px solid #1a73e8;
+}
